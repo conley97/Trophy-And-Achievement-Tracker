@@ -1,0 +1,126 @@
+.user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #1b2838; /* Optional: background color for better visuals */
+    color: white;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+.user-form h1 {
+    margin-bottom: 20px;
+}
+
+.user-form input {
+    width: 100%;
+    max-width: 300px; /* Set a maximum width for the input fields */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px; /* Ensure buttons match input width */
+    margin-top: 10px;
+}
+
+.user-form button {
+    flex: 1; /* Allow buttons to share equal width */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px; /* Add space between buttons */
+    text-align: center;
+}
+
+.user-form button:last-child {
+    margin-right: 0; /* Remove right margin for the last button */
+}
+
+.user-form button:disabled {
+    background-color: #cccccc; /* Light gray color */
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.user-form button:hover {
+    background-color: #0056b3;
+}
+
+.refresh-button {
+    background-color: #ffc107; /* Yellow for refresh button */
+}
+
+.refresh-button:hover {
+    background-color: #e0a800;
+}
+
+.logout-button {
+    width: 100%;
+    max-width: 300px; /* Match other button widths */
+    padding: 10px;
+    background-color: #dc3545; /* Red for logout button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Add margin to separate from form */
+    text-align: center;
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.message {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.loading {
+    color: #ffc107; /* Yellow for loading indication */
+    margin-bottom: 10px;
+}
+
+.link-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.link-button:hover {
+    background-color: #218838;
+}

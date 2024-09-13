@@ -1,0 +1,105 @@
+.playstation-container {
+    position: relative;
+    min-height: 100vh;
+    color: white;
+    overflow: hidden;
+    background-color: #003087; /* PlayStation blue */
+}
+
+.background-color-playstation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #003087; /* PlayStation blue */
+    z-index: -1;
+}
+
+.playstation-logo {
+    position: absolute; /* Position the logo at the top left */
+    top: 20px; /* Adjust the top spacing as needed */
+    left: 20px; /* Adjust the left spacing as needed */
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    z-index: 20; /* Ensure it is above other elements */
+}
+
+.playstation-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+}
+
+.playstation-title,
+.playstation-welcome,
+.playstation-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.playstation-welcome {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.playstation-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.psn-game-item {
+    display: grid; /* Use CSS grid for layout */
+    grid-template-columns: 80px 1fr; /* Define columns: fixed width for image, rest for text */
+    gap: 20px; /* Space between image and text */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.psn-game-item:hover {
+    transform: translateY(-5px);
+}
+
+.psngame-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    object-fit: cover; /* Ensure the image is properly fitted */
+}
+
+.game-details {
+    display: flex;
+    flex-direction: column; /* Ensure title and completion are stacked */
+    justify-content: center; /* Vertically center the details */
+}
+
+.game-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.game-title a {
+    color: white;
+    text-decoration: none;
+}
+
+.game-title a:hover {
+    text-decoration: underline;
+}
+
+.game-completion {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.game-platform {
+    font-size: 16px;
+}

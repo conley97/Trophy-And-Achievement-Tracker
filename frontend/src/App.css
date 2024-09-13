@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.sign-up
+{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.playstationh1 {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.playstationh2 {
+  display: flex;
+  margin-top: -25px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.background-image-playstation {
+  background-image: url('https://download.logo.wine/logo/PlayStation/PlayStation-Logo.wine.png');
+  background-size: contain; /* Ensures the image is fully visible */
+  background-repeat: no-repeat;
+  height: 390px; /* Adjust the height as needed */
+  width: 750px; /* Adjust the width as needed */
+  margin-left: 475px;
+  margin-right: 1px;
+  margin-bottom: -100px;
+  margin-top: 0px;
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+.signinh1 {
+  color: #242424;
+  font-size: 60px;
+}
+
+.signinh2 {
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #242424;
+}
+
+.signinh3 {
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #242424;
+}
+
+.playstationh1 {
+  color: #242424;
+  font-size: 60px;
+}
+
+.playstationh2 {
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #242424;
+}
+
+
+.howitworksh1 {
+  color: #242424;
+  font-size: 60px;
+}
+
+.howitworksp1 {
+  color: #242424;
+  font-size: 25px;
+  display: flex;
+  height: 75vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.authorsh1 {
+  color: #242424;
+  font-size: 60px;
+}
+
+.authorsh2 {
+  color: #242424;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authorsp1 {
+  color: #242424;
+  font-size: 25px;
+  display: flex;
+  height: 40vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.codeh1 {
+  color: #242424;
+  font-size: 60px;
+}
+
+.codep1 {
+  color: #242424;
+  font-size: 25px;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagesh1 {
+  color: #242424;
+  font-size: 60px;
+}
+
+.imagesh2 {
+  color: #242424;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.imagesp1 {
+  color: #242424;
+  font-size: 25px;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+input {
+  margin: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.homeButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.playstationloginh1{
+  color: #242424;
+  font-size: 60px;
+}
+
+.playstationloginh2{
+  color: #242424;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.playstationloginh3{
+  background: lightgray;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 100%;
+  color: darkblue;
+  font-size: 20px;
+  display: flex
+  align-item center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+.hero-containerp1{
+  color: white;
+  margin-bottom: 200 px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.psngamedetailsh1{
+  color: #242424;
+  font-size: 60px;
+}
+
+
+.psngamedetailsh2{
+  color: #242424;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+
+
+.psngamedetailsh4 {
+  font-size: 35px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+
+.psngamedetailsp1 {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.psngamedetailsp2 {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.psngamedetailsp3 {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
